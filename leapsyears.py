@@ -12,3 +12,6 @@ for sex in "MF":
 codes1=[sex+size+color for sex in "MF" for size in "SMLX" for color in "BGW" if not (sex=="F" and size=="X")]
 print(codes)
 print(codes1)
+
+if __name__ == '__main__':
+    print("Hello World!")
